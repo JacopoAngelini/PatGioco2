@@ -10,7 +10,7 @@ function next() {
   if (counter == 2) {
     var id = '#Question' + (counter - 1);
     console.log(id)
-    $(id).after('<p id="Question' + counter + '" class="text-primary fs-3">' + counter + '). Per la tua seconda domanda chiedi ad Andrea!</p>')
+    $(id).after('<p id="Question' + counter + '" class="text-primary fs-3">' + counter + '). Per la tua seconda domanda chiedi a Salvatore!</p>')
   }
   if (counter == 3) {
     id = '#Question' + (counter - 1);
@@ -20,7 +20,7 @@ function next() {
   if (counter == 4) {
     id = '#Question' + (counter - 1);
     console.log(id)
-    $(id).after('<p id="Question' + counter + '" class="text-primary fs-3">' + counter + '). Per la tua quarta domanda chiedi a Paola!</p>')
+    $(id).after('<p id="Question' + counter + '" class="text-primary fs-3">' + counter + '). Per la tua quarta domanda chiedi ad Alessia!</p>')
   }
   if (counter == 5) {
     id = '#Question' + (counter - 1);
